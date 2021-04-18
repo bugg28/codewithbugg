@@ -131,6 +131,7 @@
     border-radius: 28px;
     background: #f2f2f2;
     margin-bottom: 20px;
+    box-shadow: 17px -13px 3px #697475a8;
 }
 
 #services .box img {
@@ -174,17 +175,27 @@
 }
 
 .buggg {
-    color: rgba(12, 25, 56, 0.61);
+    color: rgb(27 235 225 / 60%);
     text-align: center;
     font-size: 4rem;
     font-family: 'Baloo Bhaina 2', cursive;
     font-family: 'Bree Serif', serif;
 }
 
-.name {
+.name1 {
     text-align: center;
     color: #f3f2eff7;
-    font-size: small;
+    font-size: 1rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.name2 {
+    text-align: center;
+    color: #81dc1df7;
+    font-size: 1.2rem;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 5px;
+    margin-bottom: -14px;
 }
 
 
@@ -233,7 +244,7 @@
 }
 
 #contact-box label {
-    color: #010102;
+    color: #361438;
     font-size: 0.8rem;
     border: 2px solid white;
     border-radius: 2px;
@@ -377,11 +388,11 @@ button:hover span {
     content: "";
     position: absolute;
     /* background-color: rgb(17, 209, 75); */
-    background: url('img/edu.jpg') no-repeat center center/cover;
+    background: url('img/fbfinal.jpg') no-repeat center center/cover;
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 #clients {
@@ -396,4 +407,5 @@ button:hover span {
 
 #clients img {
     height: 142px;
+    margin-left: 12px;
 }

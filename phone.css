@@ -7,6 +7,7 @@ body {
 
 #navbar {
     flex-direction: column;
+    position: relative;
 }
 
 #navbar ul li a {
@@ -45,15 +46,20 @@ body {
 
 /* client---------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-#clients {
-    flex-wrap: wrap;
-}
-
 #clients img {
     width: 66px;
     width: 110px;
     padding: 0px;
     margin: -27px -2px;
+}
+
+#clients {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* overflow: hidden; */
 }
 
 
@@ -77,8 +83,33 @@ body {
 
 .buggg {
     font-size: 2rem;
+    color: rgb(232 237 237 / 97%);
 }
 
 .h-primary {
     font-size: 42px;
+}
+
+.name1 {
+    position: absolute;
+    color: #ebecf1;
+    text-align: center;
+    margin: 10px 42px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.name2 {
+    position: absolute;
+    color: rgb(72 198 40 / 89%);
+    text-align: center;
+    margin: 23px 18px;
+    font-family: 'Bree Serif', serif;
+}
+
+#clients img {
+    width: 66px;
+    height: 200px;
+    width: 170px;
+    padding: 10px;
+    margin: -31px -2px;
 }
